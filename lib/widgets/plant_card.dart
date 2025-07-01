@@ -32,7 +32,7 @@ class PlantCard extends StatelessWidget {
           children: [
             ClipRRect(
               borderRadius: const BorderRadius.vertical(top: Radius.circular(16)),
-              child: Image.network(
+              child: Image.asset(
                 plant.afbeelding,
                 height: 150,
                 fit: BoxFit.cover,

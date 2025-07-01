@@ -56,7 +56,7 @@ class _DetailScreenState extends State<DetailScreen> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Image.network(widget.plant.afbeelding),
+            Image.asset(widget.plant.afbeelding),
             const SizedBox(height: 16),
             Text(widget.plant.naam, style: GoogleFonts.poppins(fontSize: 20, fontWeight: FontWeight.bold)),
             Text(widget.plant.wetenschappelijkeNaam, style: GoogleFonts.poppins(fontSize: 16, fontStyle: FontStyle.italic, color: Colors.grey[700])),
